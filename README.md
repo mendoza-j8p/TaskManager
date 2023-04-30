@@ -45,6 +45,16 @@ Puedes seleccionar una opción ingresando el número correspondiente y presionan
 - Marcar tarea como completada: Marca una tarea específica como completada mediante su ID.
 - Actualización automática: El sistema actualiza automáticamente las tareas vencidas y envía notificaciones cuando una tarea ha vencido.
 
+## Pruebas
+
+El archivo **taskManager_test.go** contiene pruebas unitarias para verificar el funcionamiento del Administrador de Tareas.
+
+Estas pruebas cubren los siguientes escenarios:
+    - Creación de tareas.
+    - Marcación de tareas como completadas.
+    - Manejo de tareas vencidas.
+    - Concurrencia en la creación y finalización de tareas.
+
 ## Contribución
 
 Si deseas contribuir a este proyecto, puedes realizar los siguientes pasos:

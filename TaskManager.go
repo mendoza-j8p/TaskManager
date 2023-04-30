@@ -138,7 +138,7 @@ func main() {
 				fmt.Println("Tareas:")
 				tasks := taskManager.GetTasks()
 				for _, task := range tasks {
-					fmt.Printf("- ID: %d, Nombre: %s (Vence en: %s)\n", task.ID, task.Name, task.DueDate.Sub(time.Now()))
+					fmt.Printf("- ID: %d, Nombre: %s (Vence en: %s)\n", task.ID, task.Name, time.Until(task.DueDate))
 				}
 				fmt.Println()
 			
