@@ -10,23 +10,23 @@ Go (versión 1.16 o superior)
 
 1. Clona este repositorio en tu máquina local:
 
-```bash
-git clone <URL del repositorio>
-```
+    ```bash
+    git clone <URL del repositorio>
+    ```
 
 2. Navega hasta el directorio del proyecto:
 
-```bash
-cd TaskManager
-```
+    ```bash
+    cd TaskManager
+    ```
 
 3. Compila y ejecuta el programa:
 
-```bash
-go run TaskManager.go
-```
+    ```bash
+    go run TaskManager.go
+    ```
 
-1. Sigue las instrucciones en la terminal para interactuar con el Administrador de Tareas.
+4. Sigue las instrucciones en la terminal para interactuar con el Administrador de Tareas.
 
 ## Uso
 
